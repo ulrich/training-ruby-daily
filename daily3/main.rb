@@ -1,4 +1,4 @@
-class Classe_avec_des_fonctions_publiques_et_privrees
+class Classe_avec_des_fonctions_publiques_et_privees
   def methode_publique
     puts "Méthode publique!"
   end
@@ -8,12 +8,12 @@ class Classe_avec_des_fonctions_publiques_et_privrees
 end
 
 # run
-test1 = Classe_avec_des_fonctions_publiques_et_privrees.new
+test1 = Classe_avec_des_fonctions_publiques_et_privees.new
 test1.methode_publique
 #test1.methode_privee
 
 # changement d'accessibilité
-class Classe_avec_des_fonctions_publiques_et_privrees
+class Classe_avec_des_fonctions_publiques_et_privees
   public :methode_privee
 end
 
@@ -21,19 +21,19 @@ end
 test1.methode_privee
 
 # ajout d'un constructeur
-class Classe_avec_des_fonctions_publiques_et_privrees
+class Classe_avec_des_fonctions_publiques_et_privees
   def initialize
     puts "Je suis un constructeur rajouté!"
   end
 end
 
 # run
-test2 = Classe_avec_des_fonctions_publiques_et_privrees.new
+test2 = Classe_avec_des_fonctions_publiques_et_privees.new
 test2.methode_publique
 test2.methode_privee
 
 # ajout d'une variable de classe
-class Classe_avec_des_fonctions_publiques_et_privrees
+class Classe_avec_des_fonctions_publiques_et_privees
   private
   @@variable_de_classe = 1234
 
