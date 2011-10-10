@@ -1,7 +1,3 @@
-# Cette version améliorée de la version daily1 est capable:
-# - De prendre en paramètre un nom dans le constructeur et dans la méthode say_hello,
-# - Et boucle sur un tableau de saluations.
-
 class Main
   # initializer
   def initialize(name = "World")
